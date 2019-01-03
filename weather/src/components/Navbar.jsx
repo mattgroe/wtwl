@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link to='/' className='nav-item nav-link active' {...navLink}>Home</Link>
-                    <Link to='/about' className='nav-item nav-link active' {...navLink}>About</Link>
+                    <Link to='/about' className='nav-item nav-link active' {...navLink}>Current Weather</Link>
                     <Link to='/users' className='nav-item nav-link active' {...navLink}>Users</Link>
                 {/* <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">Features</a>
