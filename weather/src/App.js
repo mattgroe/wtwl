@@ -46,7 +46,7 @@ class App extends Component {
           {/* Rendered components */}
           <div {...contentWrapper}>
             <Route path="/" exact component={Home} />
-            <Route path="/about" component={OneDay} />
+            <Route path="/today" component={OneDay} />
             <Route path="/users" component={Users} />
           </div>
         </div>
